@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="selector.css"/>
+</head>
+<body>
+<font size="4" color="red">类选择器 引用时使用 class=“类选择器名”</font><br/>
+&nbsp;&nbsp;&nbsp;定义:  <font color="red"> .类选择器名{属性名:属性值；...}   前面的点不能少</font><br/>
+<font size="4" color="red">id 选择器 引用时: id="id选择器名"</font><br/>
+&nbsp;&nbsp;&nbsp;定义:  <font color="red"> #id选择器名{属性名:属性值；...}   前面的#不能少</font><br/>
+<font size="4" color="red">html元素选择器（可修改默认字体颜色）  标签就相当于引用</font><br/>
+&nbsp;&nbsp;&nbsp;定义:  <font color="red"> 某个html元素名称{属性名:属性值；...}  </font><br/><br/><br/>
+<font size="4" color="red">通配符选择器：希望所有元素都符合某一种样式</font><br/>
+&nbsp;&nbsp;&nbsp;定义:  <font color="red"> *选择器名{属性名:属性值；...}      前面的*不能少</font><br/><br/><br/>
+<font size="3" color="blue">优先级：id>class>html>通配符  </font><br/>
+<font size="3" color="blue">父子选择器可以有多级（实际开发时不超过三层）；父子选择器有严格的层级关系；父子选择器不局限于选择器类型；父子选择器的 “子” 必须是html 认识的标签  </font><br/><br/><br/>
+<font size="3" color="blue">一个元素可以同时存在id 选择器和class类选择器  id选择器只能有一个 类选择器可以有多个；若一个标签有多个类选择器，且他们之间存在冲突，则在css文件中 谁写在后面 以谁为准 </font><br/><br/><br/><br/>
+
+
+
+北京你好！
+<span class="s1" id="new_special">新闻一</span>
+<!--一个元素可以同时存在id 选择器和class类选择器  id选择器只能有一个 类选择器可以有多个-->
+<span class="s1">新闻二</span>
+
+<span class="s1 cls11">新闻三</span>
+<!--类选择器起作用的顺序 ： css文件中谁在后面以谁为准-->
+
+<span class="s1">新闻四</span>
+<span class="s1">新闻五</span><br/>
+<!--父子选择器 控制#id1 下的span标签 -->
+<span id="id1">这是一则<span>非常<span>重</span>要</span>的新闻</span><br/>
+
+<!--案例  控制超链接样式-->
+<a href="http://www.souhu.com">连接到搜狐</a>
+<a href="http://www.baidu.com">连接到百度</a>
+<a href="http://www.baidu.com">连接到百度</a><br/><br/>
+
+<!-- 不同p样式不同的调用-->
+<p class="cls1">hello world</p>
+<p class="cls2">你是zz</p>
+</body>
+</html>

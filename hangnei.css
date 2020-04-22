@@ -1,0 +1,18 @@
+.s1{
+	background-color:pink;
+	/*display:block;/*让使用s1选择器的元素按照块元素显示*/
+}
+
+.s2{
+	background-color:gray;
+	/*display:inline;/*使用行内元素显示*/
+}
+.s3{
+	background-color:pink;
+	display:block;/*让使用s1选择器的元素按照块元素显示*/
+}
+
+.s4{
+	background-color:gray;
+	display:inline;/*使用行内元素显示*/
+}

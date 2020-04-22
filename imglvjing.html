@@ -1,0 +1,25 @@
+<html>
+<head>
+<!--内联CSS-->
+<style type="text/css">
+	/*原始选择器
+	img{
+		filter:gray;
+
+		/*若想要鼠标悬停恢复彩色  将图片标签用a 超链接标签包起来 再在选择器上更改
+	
+	}*/
+	a:link img{/*link 是未被访问前的样式*/
+		filter:gray;
+	}
+	a:hover img{/*hover 鼠标悬停的样式*/
+	    filter:"";
+	}
+</style>
+</head>
+<body>
+<a href="#"><img src="2.gif"/></a>
+<a href="3"><img src="3.gif"/></a>
+<a href="3"><img src="4.gif"/></a>
+</body>
+</html>

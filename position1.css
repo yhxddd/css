@@ -1,0 +1,18 @@
+.div1{
+	width:70px;
+	height:30px;
+	background-color:gray;
+	float:left;
+	margin-left:10px;
+}
+#spe1{
+	/*position:relative;*/
+	/*relative（相对定位）相对原来的位置的左上角重新定位 但是原来位置不被删除 也不会被其他的元素所占用*/
+	/*position:absolute;*/
+	/*absolute（绝对定位）相对于该元素最近的脱离了标准流的元素定位，若没有 则相对于body的左上角重新定位 原来位置会被其他元素占用*/
+
+	position:fixed;
+	/*fixed定位 相对于视窗左上角定位*/
+	left:70px; /*x轴向右增大 y轴向下增大*/
+	top:100px;
+}

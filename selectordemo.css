@@ -1,0 +1,28 @@
+.s1{
+	color:yellow;
+	font-size:40px;
+}
+
+.s2{
+	color:red;
+	font-style:italic;
+	font-size:20px;
+	background-color:silver;
+}
+#id1{
+	color:black;
+	background-color:silver;
+	font-size:20px;
+}
+#id2{
+	color:black;
+	background-color:silver;
+	font-size:20px;
+	font-style:italic;
+	text-decoration:underline;
+}
+.s3{
+	color:black;
+	background-color:silver;
+	font-size:25px;
+}

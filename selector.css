@@ -1,0 +1,129 @@
+
+
+/*优先级：id>class>html>通配符*/
+
+.s1{
+/*类选择器*/
+	background-color:pink;
+	font-weight:bold;
+	font-size:30px;
+	color:black;
+}
+
+
+.cls11{
+/*给新闻三再配置一个类选择器*/
+	font-style:italic;
+	text-decoration:underline;
+	color:blue;
+	background-color:yellow;
+}
+
+
+#id1{
+   /*id选择器*/
+   background-color:silver;
+   font-size:30px;
+   color:black;
+}
+
+body{
+/*html元素选择器*/
+	color:orange;
+}
+
+a: link{
+
+	color:black;
+	text-decoration:none;
+	font-size:24px;
+}
+
+/*控制<a href>的选择器*/
+
+a:visited{
+	color:red;
+}
+a:hover{
+	text-decoration:underline;
+	color:green;
+	font-size:30px;
+}
+
+/*对同一html元素选择器分类  即：多个p的样式不相同*/
+
+p.cls1{
+	color:blue;
+	font-size:20px;
+}
+p.cls2{
+	color:pink;
+	font-size:30px;
+}
+
+/*通配符选择器 优先级最低*/
+*{
+/*修改边距*/
+	/*margin-top:40px;
+	margin-left:30px;*/
+	margin:40px 40px 10px 1px;
+	/*margin外边距的机中取值方式： 
+	                               四个数据：上-右-下-左 的顺序 
+	                               两个数据：第一个用于 上-下，第二个用于左右   
+								   三个数据：第一个 上 第二个左-右 第三个 下
+								   一个数据：用于 上下左右*/
+}
+
+/*父子选择器*/
+#id1 span{
+/*控制#id1 下的span标签*/
+	color:red;
+	font-style:italic;
+}
+#id1 span span{
+	color:green;
+}
+#new_special{
+	color:yellow;
+
+}
+
+
+/*可以把某个css文件中的选择器共有的部分可独立出来写一份节省冗余*/
+
+.new1{
+	color:blue;
+	height:196px;
+	float:left;
+}
+.new2{
+	color:yellow;
+	height:196px;
+	float:left;
+	margin:30px;
+}
+.new3{
+	color:red;
+	height:196px;
+	float:left;
+	margin:40px;
+	background-color:pink;
+}
+
+/*上述选择器可写为：*/
+.new1{
+	color:blue;
+}
+.new2{
+	color:yellow;
+	margin:30px;
+}
+.new3{
+	color:red;
+	margin:40px;
+	background-color:pink;
+}
+.new1, .new2, .new3{
+	height:196px;
+	float:left;
+}

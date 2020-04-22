@@ -1,0 +1,24 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="hangnei.css"/>
+</head>
+<body>
+<font color="red" size="4" >行内元素 只占自己内容的宽度 且不会占据整行不会换行显示(只能容纳行内元素和文本)；块元素：不管内容有多少都占据整行 换行显示（容纳行内元素，文本和其他块元素）</font><br/><br/>
+<font color="red" size="4" >常见行内元素：< a> < span> < input type="xxx"><br/>
+<font color="red" size="4" >常见块元素：< p> < div> <br/><br/>
+
+<span class="s1">span1</span>
+<span class="s1">span2</span><input type="text" name="uesername"/>
+<div class="s2">div1</div>
+<div class="s2">div2</div><input type="text" name="uesername"/>
+<p style="background-color:gray">这是一个段落</p>
+
+<font color="red" size="4" >块元素和行内元素的相互转换 在css文件中 选择器中 使用 display：block --> 按照块元素显示  display:inline;--->按照行内元素显示</font><br/><br/>
+<span class="s3">span1</span>
+<span class="s3">span2</span><input type="text" name="uesername"/>
+<div class="s4">div1</div>
+<div class="s4">div2</div><input type="text" name="uesername"/><br/>
+<font color="blue" size="4" >css文件之间可以相互引用： @import url('a.css'); 可以引同目录下的css 也可以引用其他网站的css 但是要写全部的url</font><br/>
+
+</body>
+</html>
