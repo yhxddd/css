@@ -1,0 +1,22 @@
+.style1{
+    /*控制图片位置*/
+	/*写完一个必须有分号*/
+	width:700px;
+	height:500px;
+	background-color:yellow;
+	border:1px solid red;/*边框*/
+	/*margin指定图片位置 */
+	margin-left:400px;
+	margin-top: 250px;
+
+	/*padding 控制图片的位置*/
+	padding-left:50px;
+	padding-top:40px;
+}
+/*父子选择器*/
+.style1 table{
+	width:200px;
+	height:80px;
+	border:1px solid blue;
+	background-color:pink;
+}

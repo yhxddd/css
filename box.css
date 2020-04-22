@@ -1,0 +1,26 @@
+body{
+	border:1px solid red;/*1px:宽度  solid 实线 red 颜色*/
+	width:500px;
+	height:500px;
+	/*让边框自动居中  */
+	margin:0 auto;/*两个数 第一 上下  第二 左右 auto:自动居中*/
+}
+
+/*盒子模型 此时:填充的content 为img图片*/
+.div1{
+	width:200px;
+	height:200px;
+	border:1px solid blue;
+	/*margin-top:10px;      /*外边距 即：蓝色边框和红色边框之间*/
+	/*margin-left:10px;*/
+	margin:10px 0px 0px 10px; /*上-右-下-左  左右可为 该盒子与其他盒子的距离*/
+	/*padding-top:10px;内边距：图片和蓝色边框的距离 也可以转化为图片的外边距*/
+
+	/*padding 可以自适应 如果指定的padding过大 则会自动改变边框的大小*/
+	padding-left:20px;/*将content整体向右*/
+}
+.div1 img{ 
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom:8px;/*控制字和图片间距*/
+}

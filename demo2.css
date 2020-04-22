@@ -1,0 +1,27 @@
+
+/*css 的基本语法：
+
+  选择器{
+	属性：属性值；
+  }
+*/
+.s1{
+	color:green;
+	font-size:30px;
+	text-decoration:underline;/*下划线*/
+}
+.s2{
+	color:yellow;
+	font-size:12px;
+}
+.s3{
+	color:blue;
+	font-style:italic;
+}
+.s4{
+	color:green;
+	font-weight:bold;/*粗细*/
+}
+.s5{
+	color:pink;
+}

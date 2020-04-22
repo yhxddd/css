@@ -1,0 +1,19 @@
+body{
+	width:200px;
+	height:200px;
+	border:1px solid red;
+
+}
+.div1{
+	width:150px;
+	height:150px;
+	border:1px solid blue;
+	margin-top:10px;
+	margin-left:10px;
+
+}
+.div1 img{
+	border:1px solid green;
+	margin-top:10px;
+	margin-left:10px;
+}

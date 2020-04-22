@@ -1,0 +1,27 @@
+.div1{
+	width:500px;
+	height:300px;
+	border:1px solid gray;
+	margin-left:300px;
+}
+.faceul{
+	width:300px;
+	height:220px;
+	border:1px solid red;
+	padding-left:0px;
+	margin-left:50px;
+}
+.faceul li{
+	list-style-type:none;
+	float:left;/*×ó¸¡¶¯ Í¼Æ¬ºá×ÅÏÔÊ¾*/
+	width:52px;
+	height:54px;
+	border:1px solid red;
+	margin-right:5px;/*Í¼Æ¬±ß¿ò¾àÀëul±ß¿òµÄ¾àÀë*/
+	margin-top:15px;
+	margin-left:15px;
+}
+.faceul li img{
+	margin-top:5px;/*Í¼Æ¬ÔÚ¿òÖĞµÄÎ»ÖÃ*/
+	margin-left:5px;
+}
